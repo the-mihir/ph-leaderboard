@@ -20,12 +20,31 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
+
 /* Top players style css  */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 870px;
+    padding: 33px;
+}
 
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
+}
+
+.section__title {
+    color: #562EFF;
+    font-size: 24px;
+    margin: 0px 0px 23px 0px;
 }
 
 .player {
@@ -36,4 +55,10 @@ p {
 .player img {
     width: 56px;
     height: 56px;
+}
+
+.player h3 {
+    margin-left: 16px;
+    font-size: 18px;
+    line-height: 27px;
 }
