@@ -1,9 +1,13 @@
-/* google font  */
+/*==========================
+        google font  
+============================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
 
+/*==========================
+        Common Style Css
+============================*/
 
-/* Common style css  */
 body {
     margin: 0px;
     padding: 0px;
@@ -25,7 +29,10 @@ hr {
     border: 1px solid #D1D1D1;
 }
 
-/* Top players style css  */
+
+/*==========================
+    Top players style css   
+============================*/
 
 main {
     display: flex;
@@ -74,7 +81,10 @@ main {
     line-height: 27px;
 }
 
-/* Top blogs style css  */
+
+/*==========================
+    Top blogs style css 
+============================*/
 
 .thambnails img {
     width: 177px;
@@ -104,12 +114,15 @@ main {
     margin-left: 33px;
 }
 
+/*==========================
+ Top Courses Css style here
+============================*/
 
 
-/* Top Courses Css style here  */
 
 .top__courses {
     margin-top: 25px;
+    margin-bottom: 100px;
 }
 
 .all__courses {
@@ -147,3 +160,36 @@ main {
     width: 12.39px;
     height: 11.81px;
 }
+
+.filed.fa-star {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.course__rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating__number>span {
+    font-family: 'Poppins', sans-serif;
+}
+
+.course__duration {
+
+    font-size: 12px;
+    border-radius: 25px;
+    padding: 2px 5px;
+    background-color: rgba(255, 0, 0, 0.142);
+    color: rgba(255, 0, 0, 0.422);
+}
+
+/* Course area style End Here  */
